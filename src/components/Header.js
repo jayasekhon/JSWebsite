@@ -1,7 +1,5 @@
 import React, { Component, createRef } from "react";
 import Typical from "react-typical";
-import Switch from "react-switch";
-import { render } from "react-dom";
 
 class Header extends Component {
   titles = [];

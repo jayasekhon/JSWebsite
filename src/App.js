@@ -70,7 +70,6 @@ class App extends Component {
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info} 
         />
-        <div ref ={this.scrollToExp} />
         <Experience
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
