@@ -1,9 +1,11 @@
-import React, { Component } from "react";
+import React, { Component, createRef } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import { render } from "react-dom";
 
 class Header extends Component {
   titles = [];
+
 
   constructor() {
     super();
@@ -34,12 +36,27 @@ class Header extends Component {
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
+              <div>
+                <h1>
+                <span key={"linkedIn"} className="m-4">
+                  <a href={"https://www.linkedin.com/in/jaya-sekhon"} target="_blank" rel="noopener noreferrer">
+                    <i className={"fab fa-linkedin"}></i>
+                  </a>
+                  <div className="mx-auto text-center language">
+                    <button className="bouncy mx-auto language" onClick={() => document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})}>Projects</button>
+                    <a> </a>
+                    <button className="bouncy mx-auto language" onClick={() => document.getElementById('resume').scrollIntoView({behavior: 'smooth'})}>Experience</button>
+                  </div>
+                </span>
+                </h1>
+              </div>
             </div>
           </div>
         </div>
       </header>
+      
+      
     );
   }
 }
-
 export default Header;

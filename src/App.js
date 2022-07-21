@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component }from "react";
 import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
@@ -16,6 +16,7 @@ class App extends Component {
       resumeData: {},
       sharedData: {},
     };
+
   }
 
   applyResume(pickedLanguage) {
@@ -64,22 +65,12 @@ class App extends Component {
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-          </div>
-        </div>
+        <div className="mx-auto text-center language"/>
         <Projects
           resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
+          resumeBasicInfo={this.state.resumeData.basic_info} 
         />
+        <div ref ={this.scrollToExp} />
         <Experience
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
