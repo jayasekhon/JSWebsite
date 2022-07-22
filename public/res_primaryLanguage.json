@@ -4,7 +4,7 @@
       "description": "test",
       "section_name": {
         "about": "About me",
-        "projects": "Projects",
+        "projects": "Latest Project",
         "skills": "Skills",
         "experience": "Experience"
       }
@@ -17,8 +17,24 @@
         "images": [
           "images/portfolio/BirdGang/BGTitle.png"
         ],
-        "video": [
-          ""
+        "url": "https://github.com/jayasekhon/BirdGang",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"                    
+          }
+        ]
+      },
+      {
+        "title": "BirdGang",
+        "startDate": "2021-2022",
+        "description": "Team Manager...",
+        "images": [
+          "images/portfolio/BirdGang/BGTitle.png"
         ],
         "url": "https://github.com/jayasekhon/BirdGang",
         "technologies": [
@@ -28,41 +44,62 @@
           },
           {
             "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "TypeScript"                    
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Intern",
+        "title": "OneStream Software",
+        "years": "June - September 2021",
         "mainTech": [
-          "Angular 8/9/10"
+          "Project Management"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Worked in Consulting Services, learning about project management in"," various stages of the pipeline, created templates using VBA and ", "implemented unit tests. Delivered a presentation on"," Machine Learning (ML) to consultants, discussing potential use"," cases within the department and the cutting edge of ML within FinTech"," currently."
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Intern",
+        "title": "Global Cyber Alliance",
+        "years": "October 2018 - January 2019",
         "mainTech": [
-          "Angular 7/8"
+          "Cyber-Security"
+        ],
+        "technologies": [
+          "Volunteer supporting organisation with annual conference, and developed a training video about Quad 9 routers."
+        ]
+      },
+      {
+        "company": "Duty Manager",
+        "title": "Squire Performing Arts Centre",
+        "years": "December 2018 - March 2019",
+        "mainTech": [
+          "Management"
+        ],
+        "technologies": [
+          ""
+        ]
+      },
+      {
+        "company": "Receptionist and Administration Assistant",
+        "title": "Nottingham Girls' High School",
+        "years": "October 2018 - March 2019",
+        "mainTech": [
+          "Administration"
+        ],
+        "technologies": [
+          ""
+        ]
+      },
+      {
+        "company": "Intern",
+        "title": "Jellyfish",
+        "years": "August 2018",
+        "mainTech": [
+          "Email Campaigns"
         ],
         "technologies": [
           "RxJS",
@@ -73,11 +110,56 @@
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Intern",
+        "title": "Hive Healthcare Communications",
+        "years": "August 2016",
         "mainTech": [
-          "Angular 7/8"
+          "Virtual Reality"
+        ],
+        "technologies": [
+          "RxJS",
+          "Django",
+          "PHP",
+          "JavaScript",
+          "DHTMLX Gantt"
+        ]
+      },
+      {
+        "company": "Intern",
+        "title": "Hambro Perks",
+        "years": "July 2016",
+        "mainTech": [
+          "UX / UI"
+        ],
+        "technologies": [
+          "RxJS",
+          "Django",
+          "PHP",
+          "JavaScript",
+          "DHTMLX Gantt"
+        ]
+      },
+      {
+        "company": "Intern",
+        "title": "The Oriental Club",
+        "years": "July 2016",
+        "mainTech": [
+          "Marketing"
+        ],
+        "technologies": [
+          "RxJS",
+          "Django",
+          "PHP",
+          "JavaScript",
+          "DHTMLX Gantt"
+        ]
+      },
+      {
+        "company": "Intern",
+        "title": "Canal Engineering",
+        "years": "July 2016",
+        "mainTech": [
+          "Online Marketing"
         ],
         "technologies": [
           "RxJS",

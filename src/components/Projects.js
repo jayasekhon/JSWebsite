@@ -39,10 +39,21 @@ class Projects extends Component {
                   <p className="project-title-settings mt-3">
                     {projects.title}
                   </p>
+                  <iframe
+                width="853"
+                height="480"
+                src="https://www.youtube.com/embed/aOmKyhrso0Q"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+                title="video"
+              />{" "}
                 </div>
               </div>
             </span>
+           
           </div>
+          
         );
       });
     }
