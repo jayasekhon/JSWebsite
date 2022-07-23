@@ -58,7 +58,7 @@ class Projects extends Component {
                 BirdGang was created as part of the Unviersity of Bristol Computer Science MEng Games Project. It was awarded a first class mark, and judged as “outstanding” by the panel, entering “truly professional territory".
 
                 <br/><br/>
-                I was selected to be Team Manager of the project from its inception. Given the scope of the project, a successful outcome required detailed planning and a common vision within the team. At the start, I ensured we spent time discussing our initial ideas, and implemented the Scrum model of Agile development to ensure user feedback analysis and team progress was communicated regularly during weekly Sprint Review and Retrospective sessions. This ensured we maintained consistent progress and met each deadline to a high standard. It also made certain all team members felt heard, respected, and free to voice their opinions without judgement. When inevitable disagreements arose, I led discussions and formed actionable points, establishing a culture of constructive criticism and candid feedback within the group. I also ensured we took a User-Centred Design approach, keeping the needs of end users at the forefront throughout. I discuss our project development strategies in more detail in the video seen to the left @ 5:20
+                I was selected to be Team Manager of the project from its inception. Given the scope of the project, a successful outcome required detailed planning and a common vision within the team. At the start, I ensured we spent time discussing our initial ideas, and implemented the Scrum model of Agile development to ensure user feedback analysis and team progress was communicated regularly during weekly Sprint Review and Retrospective sessions. This ensured we maintained consistent progress and met each deadline to a high standard. It also made certain all team members felt heard, respected, and free to voice their opinions without judgement. When inevitable disagreements arose, I led discussions and formed actionable points, establishing a culture of constructive criticism and candid feedback within the group. I also ensured we took a User-Centred Design approach, keeping the needs of end users at the forefront throughout. I discuss our project development strategies in more detail in the video seen above @ 5:20
 
 
                 <br/><br/>
@@ -66,8 +66,9 @@ class Projects extends Component {
                 <br/><br/>
                 Click below to play the game (recommended browser is Chrome, game will not run on Safari):
                 <br/><br/>
+                <br/><br/>
                 <a className="bouncy mx-auto language" target="_blank" href='https://jayasekhon.github.io/BirdGang/'>Play Now</a>
-                <br/><br/></h2>
+                </h2>
           </div>
           </div>
           
