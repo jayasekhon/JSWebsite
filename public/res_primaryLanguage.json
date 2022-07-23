@@ -28,25 +28,6 @@
             "name": "TypeScript"                    
           }
         ]
-      },
-      {
-        "title": "BirdGang",
-        "startDate": "2021-2022",
-        "description": "Team Manager...",
-        "images": [
-          "images/portfolio/BirdGang/BGTitle.png"
-        ],
-        "url": "https://github.com/jayasekhon/BirdGang",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"                    
-          }
-        ]
       }
     ],
     "experience": [

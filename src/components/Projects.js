@@ -25,6 +25,7 @@ class Projects extends Component {
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
+            <div className="project-text"><h2 >test of positioning</h2></div>
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
                 <div>
@@ -40,8 +41,8 @@ class Projects extends Component {
                     {projects.title}
                   </p>
                   <iframe
-                width="853"
-                height="480"
+                width="682"
+                height="384"
                 src="https://www.youtube.com/embed/aOmKyhrso0Q"
                 frameborder="0"
                 allow="autoplay; encrypted-media"
