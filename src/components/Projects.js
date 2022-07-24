@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
+// if want to add in project tags again:       
+//<div className="foto" onClick={() => detailsModalShow(projects)}> 
+// underneath <span className="portfolio-item d-block">
+// and { " "} just outside iframe closing tag
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -21,44 +26,33 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div >
-                
+            <span className="project-date">{projects.startDate}</span>
+            <img className="project-title-settings mt-3" src=
+              "images/portfolio/BirdGang/BGFlightLogo.png"
+              alt="BirdGang logo"
+              width="550"
+              height="300"
+              ></img>
+            <br />
+            <br />
           <div
             className="col-sm-12 col-3"
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
-  
-            <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <img
-                    src={projects.images[0]}
-                    alt="projectImages"
-                    height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-                  />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
-                  <iframe
-                width="682"
-                height="400"
-                src="https://www.youtube.com/embed/aOmKyhrso0Q"
-                frameborder="0"
-                allow="autoplay; encrypted-media"
-                allowfullscreen
-                title="video"
-              />{" "}
-                </div>
-              </div>
-            </span>
+
+            <img src=
+              "images/portfolio/BirdGang/allbosses.png"
+              alt="BirdGang minibosses"
+              width="250"
+              height="300"
+              align="right"></img>
+            
             <h2 className="project-text">
                 BirdGang was created as part of the Unviersity of Bristol Computer Science MEng Games Project. It was awarded a first class mark, and judged as “outstanding” by the panel, entering “truly professional territory".
 
                 <br/><br/>
-                I was selected to be Team Manager of the project from its inception. Given the scope of the project, a successful outcome required detailed planning and a common vision within the team. At the start, I ensured we spent time discussing our initial ideas, and implemented the Scrum model of Agile development to ensure user feedback analysis and team progress was communicated regularly during weekly Sprint Review and Retrospective sessions. This ensured we maintained consistent progress and met each deadline to a high standard. It also made certain all team members felt heard, respected, and free to voice their opinions without judgement. When inevitable disagreements arose, I led discussions and formed actionable points, establishing a culture of constructive criticism and candid feedback within the group. I also ensured we took a User-Centred Design approach, keeping the needs of end users at the forefront throughout. I discuss our project development strategies in more detail in the video seen above @ 5:20
+                I was selected to be Team Manager of the project from its inception. Given the scope of the project, a successful outcome required detailed planning and a common vision within the team. At the start, I ensured we spent time discussing our initial ideas, and implemented the Scrum model of Agile development to ensure user feedback analysis and team progress was communicated clearly during weekly Sprint Review and Retrospective sessions. This ensured we maintained consistent progress and met each deadline to a high standard. It also made certain all team members felt heard, respected, and free to voice their opinions without judgement. When inevitable disagreements arose, I led discussions and formed actionable points, establishing a culture of constructive criticism and candid feedback within the group. I also ensured we took a User-Centred Design approach, keeping the needs of end users at the forefront throughout. I discuss our project development strategies in more detail in the video seen below @ 5:20
 
 
                 <br/><br/>
@@ -69,6 +63,22 @@ class Projects extends Component {
                 <br/><br/>
                 <a className="bouncy mx-auto language" target="_blank" href='https://jayasekhon.github.io/BirdGang/'>Play Now</a>
                 </h2>
+  
+            <span className="portfolio-item d-block">
+
+                <div>
+                  <iframe
+                    width="682"
+                    height="400"
+                    src="https://www.youtube.com/embed/aOmKyhrso0Q"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen
+                    title="video"
+                  />
+                </div>
+            </span>
+
           </div>
           </div>
           
