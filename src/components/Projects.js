@@ -45,7 +45,6 @@ class Projects extends Component {
               "images/portfolio/BirdGang/allbosses.png"
               alt="BirdGang minibosses"
               width="250"
-              height="300"
               align="right"></img>
             
             <h2 className="project-text">

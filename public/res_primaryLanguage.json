@@ -39,8 +39,9 @@
           "Project Management"
         ],
         "technologies": [
-          "Worked in Consulting Services, learning about project management in"," various stages of the pipeline, created templates using VBA and ", "implemented unit tests. Delivered a presentation on"," Machine Learning (ML) to consultants, discussing potential use"," cases within the department and the cutting edge of ML within FinTech"," currently."
-        ]
+          ""
+        ],
+        "description": "Worked in Consulting Services, creating templates using VBA and implementing unit tests. Delivered a presentation on Machine Learning (ML) to consultants, which discussed potential use cases within the department and the cutting edge of ML within FinTech currently."
       },
       {
         "company": "Intern",
@@ -50,8 +51,9 @@
           "Cyber-Security"
         ],
         "technologies": [
-          "Volunteer supporting organisation with annual conference, and developed a training video about Quad 9 routers."
-        ]
+          ""
+        ],
+        "description": "Volunteer supporting organisation with annual conference, and developed a training video about Quad 9 routers."
       },
       {
         "company": "Duty Manager",
@@ -62,7 +64,8 @@
         ],
         "technologies": [
           ""
-        ]
+        ],
+        "description": "Responsible for ensuring the smooth running of public events and performances at the theatre. Including coordinating with bar staff, ushers, and security. Dealing with any issues that arose, for example wheelchair accessibility."
       },
       {
         "company": "Receptionist and Administration Assistant",
@@ -73,7 +76,8 @@
         ],
         "technologies": [
           ""
-        ]
+        ],
+        "description": "This involved making important decisions, as well as demonstrating flexibility when dealing with students, staff and parents."
       },
       {
         "company": "Intern",
@@ -88,7 +92,8 @@
           "PHP",
           "JavaScript",
           "DHTMLX Gantt"
-        ]
+        ],
+        "description": "Worked with developers and creative teams to design an email campaign."
       },
       {
         "company": "Intern",
@@ -103,7 +108,8 @@
           "PHP",
           "JavaScript",
           "DHTMLX Gantt"
-        ]
+        ],
+        "description": "Learnt about how virtual reality and interactive apps can serve educational purposes."
       },
       {
         "company": "Intern",
@@ -118,7 +124,8 @@
           "PHP",
           "JavaScript",
           "DHTMLX Gantt"
-        ]
+        ],
+        "description": "Used UX / UI techniques to design an app for car insurance."
       },
       {
         "company": "Intern",
@@ -133,7 +140,8 @@
           "PHP",
           "JavaScript",
           "DHTMLX Gantt"
-        ]
+        ],
+        "description": "Raised the Club’s profile through social media campaigns."
       },
       {
         "company": "Intern",
@@ -148,7 +156,8 @@
           "PHP",
           "JavaScript",
           "DHTMLX Gantt"
-        ]
+        ],
+        "description": "Learnt about online marketing and e-commerce websites, before designing, filming and launching an email campaign advertisement video, and new website page."
       }
     ]
   }
