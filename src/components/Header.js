@@ -44,6 +44,7 @@ class Header extends Component {
                     <button className="bouncy mx-auto language" onClick={() => document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})}>Projects</button>
                     <a> </a>
                     <button className="bouncy mx-auto language" onClick={() => document.getElementById('resume').scrollIntoView({behavior: 'smooth'})}>Experience</button>
+
                   </div>
                 </span>
                 </h1>
