@@ -27,27 +27,28 @@ class Projects extends Component {
         return (
           <div >
             <span className="project-date">{projects.startDate}</span>
-            <img className="project-title-settings mt-3" src=
+            <img className="project-title-settings mx-auto mt-3" src=
               "images/portfolio/BirdGang/BGFlightLogo.png"
               alt="BirdGang logo"
-              width="550"
-              height="300"
+              width = "70%"
+              height= "auto"
               ></img>
             <br />
             <br />
           <div
-            className="col-sm-12 col-3"
+            className="mx-auto"
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
 
-            <img src=
+            <img className="project-title-settings mx-auto" src=
               "images/portfolio/BirdGang/allbosses.png"
               alt="BirdGang minibosses"
-              width="250"
+              width = "30%"
+              height= "auto"
               align="right"></img>
             
-            <h2 className="project-text">
+            <h2 className="project-text mx-auto">
                 BirdGang was created as part of the Unviersity of Bristol Computer Science MEng Games Project. It was awarded a first class mark, and judged as “outstanding” by the panel, entering “truly professional territory".
 
                 <br/><br/>
@@ -66,9 +67,7 @@ class Projects extends Component {
             <span className="portfolio-item d-block">
 
                 <div>
-                  <iframe
-                    width="682"
-                    height="400"
+                  <iframe class="embedded-video-16-9"
                     src="https://www.youtube.com/embed/aOmKyhrso0Q"
                     frameborder="0"
                     allow="autoplay; encrypted-media"

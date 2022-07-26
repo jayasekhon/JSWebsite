@@ -451,7 +451,7 @@ footer a:focus {
 	flex-direction: row;
 	padding:0.35em 1.2em;
 	border:0.1em solid #FFFFFF;
-	margin: -10em 6em 6em -10em;
+	margin: -10em 6em 6em 0em;
 	margin-right: 20px;
 	border-radius:0.12em;
 	box-sizing: border-box;
@@ -478,3 +478,17 @@ footer a:focus {
 	50%{top:0em}
 	100%{top:0em;}
 }
+
+.embedded-video-16-9 {
+	width:  90vw;
+	height: 50.625vw; /* 90*9/16 */
+
+  }
+  
+  @media (min-width: 893px) {
+	.embedded-video-16-9 {
+	  width: 45vw;
+	  height: 25.3125vw; /* 45*9/16 */
+
+	}
+  }
