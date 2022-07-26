@@ -1,0 +1,143 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "test",
+      "section_name": {
+        "about": "About me",
+        "projects": "Latest Project",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "BirdGang",
+        "startDate": "2021-2022",
+        "description": "",
+        "images": [
+          ""
+        ],
+        "url": "https://github.com/jayasekhon/BirdGang",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"                    
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Intern",
+        "title": "OneStream Software",
+        "years": "June - September 2021",
+        "mainTech": [
+          "Project Management"
+        ],
+        "technologies": [
+          ""
+        ],
+        "description": "Worked in Consulting Services, creating templates using VBA and implementing unit tests. Delivered a presentation on Machine Learning (ML) to consultants, which discussed potential use cases within the department and the cutting edge of ML within FinTech currently."
+      },
+      {
+        "company": "Intern",
+        "title": "Global Cyber Alliance",
+        "years": "October 2018 - January 2019",
+        "mainTech": [
+          "Cyber-Security"
+        ],
+        "technologies": [
+          ""
+        ],
+        "description": "Volunteer supporting organisation with annual conference, and developed a training video about Quad 9 routers."
+      },
+      {
+        "company": "Duty Manager",
+        "title": "Squire Performing Arts Centre",
+        "years": "December 2018 - March 2019",
+        "mainTech": [
+          "Management"
+        ],
+        "technologies": [
+          ""
+        ],
+        "description": "Responsible for ensuring the smooth running of public events and performances at the theatre. Including coordinating with bar staff, ushers, and security. Dealing with any issues that arose, for example wheelchair accessibility."
+      },
+      {
+        "company": "Receptionist and Administration Assistant",
+        "title": "Nottingham Girls' High School",
+        "years": "October 2018 - March 2019",
+        "mainTech": [
+          "Administration"
+        ],
+        "technologies": [
+          ""
+        ],
+        "description": "This involved making important decisions, as well as demonstrating flexibility when dealing with students, staff and parents."
+      },
+      {
+        "company": "Intern",
+        "title": "Jellyfish",
+        "years": "August 2018",
+        "mainTech": [
+          "Email Campaigns"
+        ],
+        "technologies": [
+          ""
+        ],
+        "description": "Worked with developers and creative teams to design an email campaign."
+      },
+      {
+        "company": "Intern",
+        "title": "Hive Healthcare Communications",
+        "years": "August 2016",
+        "mainTech": [
+          "Virtual Reality"
+        ],
+        "technologies": [
+          ""
+        ],
+        "description": "Learnt about how virtual reality and interactive apps can serve educational purposes."
+      },
+      {
+        "company": "Intern",
+        "title": "Hambro Perks",
+        "years": "July 2016",
+        "mainTech": [
+          "UX / UI"
+        ],
+        "technologies": [
+          ""
+        ],
+        "description": "Used UX / UI techniques to design an app for car insurance."
+      },
+      {
+        "company": "Intern",
+        "title": "The Oriental Club",
+        "years": "July 2016",
+        "mainTech": [
+          "Marketing"
+        ],
+        "technologies": [
+          ""
+        ],
+        "description": "Raised the Club’s profile through social media campaigns."
+      },
+      {
+        "company": "Intern",
+        "title": "Canal Engineering",
+        "years": "July 2016",
+        "mainTech": [
+          "Online Marketing"
+        ],
+        "technologies": [
+          ""
+        ],
+        "description": "Learnt about online marketing and e-commerce websites, before designing, filming and launching an email campaign advertisement video, and new website page."
+      }
+    ]
+  }
