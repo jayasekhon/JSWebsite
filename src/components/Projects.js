@@ -27,11 +27,12 @@ class Projects extends Component {
         return (
           <div >
             <span className="project-date">{projects.startDate}</span>
-            <img className="project-title-settings mx-auto mt-3" src=
+            <img className="mx-auto mt-3" src=
               "images/portfolio/BirdGang/BGFlightLogo.png"
               alt="BirdGang logo"
-              width = "70%"
+              width = "30%"
               height= "auto"
+              resizeMode={'contain'} 
               ></img>
             <br />
             <br />

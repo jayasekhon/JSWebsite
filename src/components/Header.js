@@ -41,7 +41,6 @@ class Header extends Component {
                   </a>
                 </span>
               </h1>              
-
  
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
