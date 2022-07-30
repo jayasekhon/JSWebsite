@@ -183,6 +183,11 @@ header h1 {
 	
 }
 
+.project-header{
+	align-content: left;
+	justify-content: left;
+}
+
 .polaroid img {
 	display: block;
 	max-width: 200px;
@@ -482,8 +487,7 @@ footer a:focus {
 .embedded-video-16-9 {
 	width:  90vw;
 	height: 50.625vw; /* 90*9/16 */
-	margin-left: 5vw;
-	margin-right: 5vw;
+	justify-content: center;
   }
   
   @media (min-width: 893px) {

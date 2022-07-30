@@ -26,11 +26,10 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div >
-            <span className="project-date">{projects.startDate}</span>
-            <img className="mx-auto mt-3" src=
+            <img className="project-header" src=
               "images/portfolio/BirdGang/BGFlightLogo.png"
               alt="BirdGang logo"
-              width = "30%"
+              width = "400"
               height= "auto"
               resizeMode={'contain'} 
               ></img>
@@ -45,7 +44,7 @@ class Projects extends Component {
             <img className="project-title-settings mx-auto" src=
               "images/portfolio/BirdGang/allbosses.png"
               alt="BirdGang minibosses"
-              width = "30%"
+              width = "20%"
               height= "auto"
               align="right"></img>
             
