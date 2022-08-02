@@ -30,6 +30,7 @@ class Experience extends Component {
           );
         });
         return (
+          
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={work.years}

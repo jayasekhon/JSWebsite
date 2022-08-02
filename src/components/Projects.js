@@ -26,8 +26,10 @@ class Projects extends Component {
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div >
+            
             <img className="project-header" src=
               "images/portfolio/BirdGang/BGFlightLogo.png"
+              id="BirdGang"
               alt="BirdGang logo"
               width = "400"
               height= "auto"
@@ -35,22 +37,23 @@ class Projects extends Component {
               ></img>
             <br />
             <br />
+         
           <div
             className="mx-auto"
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
 
-            <img className="project-title-settings mx-auto" src=
-              "images/portfolio/BirdGang/allbosses.png"
+            <img className="project-title-settings mx-auto" 
+              src="images/portfolio/BirdGang/allbosses.png"
               alt="BirdGang minibosses"
               width = "20%"
               height= "auto"
               align="right"></img>
             
-            <h2 className="project-text mx-auto">
+            <h2 className="project-text mx-auto" >
+              <a href="#BirdGang"></a>
                 BirdGang was created as part of the Unviersity of Bristol Computer Science MEng Games Project. It was awarded a first class mark, and judged as “outstanding” by the panel, entering “truly professional territory".
-
                 <br/><br/>
                 I was selected to be Team Manager of the project from its inception. Given the scope of the project, a successful outcome required detailed planning and a common vision within the team. At the start, I ensured we spent time discussing our initial ideas, and implemented the Scrum model of Agile development to ensure user feedback analysis and team progress was communicated clearly during weekly Sprint Review and Retrospective sessions. This ensured we maintained consistent progress and met each deadline to a high standard. It also made certain all team members felt heard, respected, and free to voice their opinions without judgement. When inevitable disagreements arose, I led discussions and formed actionable points, establishing a culture of constructive criticism and candid feedback within the group. I also ensured we took a User-Centred Design approach, keeping the needs of end users at the forefront throughout. I discuss our project development strategies in more detail in the video seen below @ 5:20
 
@@ -65,8 +68,8 @@ class Projects extends Component {
                 </h2>
   
             <span className="portfolio-item d-block">
-
                 <div>
+                
                   <iframe class="embedded-video-16-9"
                     src="https://www.youtube.com/embed/aOmKyhrso0Q"
                     frameborder="0"
